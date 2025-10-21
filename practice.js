@@ -53,3 +53,35 @@ function printX(){
 }
 printX(); //
 console.log(x);
+
+
+
+
+
+
+
+let doAnat = "sports anatomy";
+let beAnat = "gross anatomy";
+doAnat = "head and neck";
+let fullAnat = doAnat + " " + beAnat;
+let result = doAnat.concat(" ", beAnat); 
+
+let doNursing = "stipple chase";
+let beNursing = "theater";
+doNursing = "ante natal";
+let fullNursing = doNursing + " " + beNursing;
+
+let doMbbs = "community medicine";
+let beMbbs = "metab";
+doMbbs = "pharmacy"
+let fullMbbs = doMbbs + " " + beMbbs;
+
+let theBrand = "la sante";
+let deBrand = "pappiq";
+theBrand = "worldwide";
+let fullBrand = theBrand + " " + deBrand;
+
+let myCana = "full strain";
+let theCana = "one tie";
+myCana = "jumbo tie";
+let fullCana = myCana + " " + theCana;

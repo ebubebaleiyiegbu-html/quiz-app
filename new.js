@@ -1,20 +1,7 @@
 // first i need an array for the names
 // if statements for the conditions for if the name is not in the list 
 // return statemeent if the person is not on the list
-
-
-
-
-
-
-
-
-let name = [belchi, dan, johnboscos, praise, dobel, ebube,];
-function getReady() {}
-
-
-
-
+debugger
 let cart = [];
 function displayMenu() {
     let choice = prompt(`Main Menu:
@@ -35,7 +22,7 @@ function addToCart(){
     displayMenu();
 }
 function removeFromCart(){
- if (cart.length ===0){
+ if (cart.length === 0){
     alert("your cart is empty");
     displayMenu();
 };

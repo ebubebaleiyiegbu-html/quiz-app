@@ -1,0 +1,35 @@
+/*
+We are going to build an application to do the following:
+[1] Open account
+[2] Deposit
+[3] Withdraw
+[4] View balance
+[5] View transactions
+[6] Switch active account
+[7] Close account
+[8] All accounts summary
+[9] Export session summary
+[0] Exit
+
+
+
+open account: username and password
+deposit: adding money
+withdraw: removing money
+view balance: veiwing the amount of money in the account,(add privacy)
+view transactions: transaction history
+switch active account: switching users 
+close account: delete account
+all accounts summary: the accounts details of all the account created in the application
+export session summary: 
+exit: close the application
+
+
+
+
+ things beign stored:
+ username, account balance,
+
+let accounts = []
+ 
+*/
