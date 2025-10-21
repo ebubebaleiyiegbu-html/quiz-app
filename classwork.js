@@ -82,3 +82,9 @@ function switchActiveAccount(){
     }
 }
 
+function closeAccount(){
+    if(!activeAccount) {
+        alert("No active account selected.");
+        return myBank();
+    }
+}
