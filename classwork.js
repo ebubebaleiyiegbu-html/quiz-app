@@ -88,3 +88,21 @@ function closeAccount(){
         return myBank();
     }
 }
+
+function allAccountSummary(){
+    if (accounts.length === 0){
+        alert("No accounts avaliable.");
+        return myBank();
+    }
+}
+
+function exportSessionSummary(){
+    if(accounts.length === 0){
+        alert("No data to export.");
+        return myBank();
+    }
+}
+
+function exit(){
+    alert("Thank you for using MakeCodeLitBankng. Goodbye!");
+}
